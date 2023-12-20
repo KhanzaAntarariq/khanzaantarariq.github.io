@@ -1,12 +1,23 @@
 .jumbotron {
     padding-top: 6rem;
-    background-color: #00a2ffbc;
+    background-color: #00035bf0;
   }
   
   #projects {
-    background-color: #00a2ffbc;
+    background-color: #00035bf0;
   }
   
   section {
     padding-top: 5rem;
   }
+
+.card:hover{
+  transition: transform .3s;
+  transform: scale(1.1);
+  overflow: hidden;
+  color: #00035bf0;
+}
+  
+.card-text {
+  text-align: center;
+}
